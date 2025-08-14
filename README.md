@@ -6,7 +6,6 @@ https://makevocabpiccard.streamlit.app/
 
 # User's Manual #
 Below Link is for User's Manual 下記リンクでユーザーマニュアルの確認可能です。
-
 https://makevocabpiccard.my.canva.site/
 
 Please reffer the below Lint to find language codes for translate. 翻訳用言語コードは以下リンクを参照
