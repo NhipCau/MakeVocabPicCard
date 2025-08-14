@@ -1,10 +1,12 @@
 # MakeVocabPicCard
 If you want to try to use this app, please go this Link. 
 下記リンクでアプリの試用可能です。
+
 [https://makevocabpiccard.streamlit.app/](https://makevocabpiccard.streamlit.app/)
 
 # User's Manual #
 Below Link is for User's Manual 下記リンクでユーザーマニュアルの確認可能です。
+
 [https://makevocabpiccard.streamlit.app/](https://makevocabpiccard.streamlit.app/)
 
 Please reffer the below Link to find language codes for translate. 翻訳用言語コードは以下リンクを参照
