@@ -1,0 +1,5 @@
+streamlit
+deep-translator
+python-pptx
+pandas
+openpyxl
