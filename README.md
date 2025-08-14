@@ -7,3 +7,14 @@ Progressing time is very short (almost several tens of seconds to a few minutes)
 Especially, it's very convenient for use for multiple nationalities' classes.
 However, the auto translate system is used by AI Translate, occasionally you might have unmutch nuance words.Please be aware in advance.
 I hope this app will help your Japanese teaching and reduce waste time for preparing for class.
+
+
+日本語教師向けの自動語彙絵カード作成アプリ（絵を描く機能を除く）
+このアプリは、一度に複数のPPTスライドを作成できます。
+作成されたスライドには、日本語の語彙（漢字を含む）、ルビ（ひらがな）、およびアプリの設定で指定された言語への翻訳情報が含まれます。
+各情報は、指定した位置に設定できます（スライドの高さのパーセンテージを設定する必要があります）。
+授業で教えたい日本語の語彙とルビを書いたCSVリストファイルまたはXLSXリストファイルを事前に用意する必要があります。
+このアプリでは、リストファイルをインポートし、いくつかの設定を行い、ボタンをクリックするだけで上記の情報を含むPPTファイルをエクスポートできます。
+所要時間は非常に短く（数十秒から数分程度）、簡単に完了できます。
+特に、多国籍の授業で使用すると非常に便利です。ただし、自動翻訳システムはAI翻訳を使用しているため、ニュアンスが合わない単語がある場合があります。あらかじめご了承ください。
+このアプリがあなたの日本語教育に役立ち、授業の準備にかかる無駄な時間を減らすことを願っています。
