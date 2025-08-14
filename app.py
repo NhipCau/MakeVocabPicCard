@@ -7,7 +7,7 @@ from pptx.enum.text import PP_ALIGN
 import os
 
 # ===== UI =====
-st.title("📄 日本語絵カード作成支援ツール")
+st.title("📄 絵カード作成支援ツール")
 
 uploaded_file = st.file_uploader("ExcelまたはCSVファイルをアップロード", type=["xlsx", "csv"])
 
@@ -111,5 +111,6 @@ if uploaded_file:
                 file_name=f"{base_filename}.pptx",
                 mime="application/vnd.openxmlformats-officedocument.presentationml.presentation"
             )
+
 
 
