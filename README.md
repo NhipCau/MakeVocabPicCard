@@ -1,9 +1,17 @@
 # MakeVocabPicCard
 If you want to try to use this app, please go this Link. 
-下記リンクでアプリ試用可能です。
+下記リンクでアプリの試用可能です。
 
 https://makevocabpiccard.streamlit.app/
 
+# User's Manual #
+Below Link is for User's Manual 下記リンクでユーザーマニュアルの確認可能です。
+https://makevocabpiccard.my.canva.site/
+
+Please reffer the below Lint to find language codes for translate. 翻訳用言語コードは以下リンクを参照
+https://cloud.google.com/translate/docs/languages?hl=ja
+
+# About this app #
 Automatic Vocabulary Picture Cards Maker (except for drawing pictures) for Japanese teachers.
 This app can create many PPT slides all at once. 
 
@@ -23,7 +31,7 @@ I hope this app will help your Japanese teaching and reduce waste time for prepa
 
 
 
-日本語教師向けの自動語彙絵カード作成アプリ（絵を描く機能を除く）
+日本語教師向けの自動語彙絵カード作成アプリ（絵を自動生成する機能を除く）
 
 このアプリは、一度に複数のPPTスライドを作成できます。
 
