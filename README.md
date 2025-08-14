@@ -2,15 +2,15 @@
 If you want to try to use this app, please go this Link. 
 下記リンクでアプリの試用可能です。
 
-https://makevocabpiccard.streamlit.app/
+![アプリ試用はこちら]([https://hogehoge](https://makevocabpiccard.streamlit.app))
 
 # User's Manual #
 Below Link is for User's Manual 下記リンクでユーザーマニュアルの確認可能です。
 
-https://makevocabpiccard.my.canva.site/
+![マニュアルはこちら](https://makevocabpiccard.my.canva.site/)
 
 Please reffer the below Link to find language codes for translate. 翻訳用言語コードは以下リンクを参照
-https://cloud.google.com/translate/docs/languages?hl=ja
+![言語コード](https://cloud.google.com/translate/docs/languages?hl=ja)
 
 # About this app #
 Automatic Vocabulary Picture Cards Maker (except for drawing pictures) for Japanese teachers.
