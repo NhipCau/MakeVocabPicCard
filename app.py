@@ -1,4 +1,3 @@
-# app.py
 import pandas as pd
 import streamlit as st
 from deep_translator import GoogleTranslator
@@ -46,7 +45,7 @@ def add_textbox(slide, text, y_percent, font_size):
         height=int(SLIDE_HEIGHT * 0.10)
     )
     tf = textbox.text_frame
-    tf.word_wrap = True   # ←ここで自動改行をON
+    tf.word_wrap = True   # 自動改行ON
     tf.text = text
     p = tf.paragraphs[0]
     p.font.size = Pt(font_size)
@@ -58,7 +57,7 @@ def translate_word(word, lang):
     except Exception:
         return f"[Error:{lang}]"
 
-def create_ppt_from_vocab(df, col_japanese, col_ruby):
+def create_ppt_from_vocab(df, col_japanese, col_ruby, base_filename):
     prs = Presentation()
     for _, row in df.iterrows():
         # 列の取得（番号 or 列名）
@@ -80,7 +79,7 @@ def create_ppt_from_vocab(df, col_japanese, col_ruby):
         translations = [translate_word(word, lang) for lang in target_languages]
         add_textbox(slide, "   ".join(translations), translation_y_percent, font_size_translation)
 
-    output_pptx = "flashcards.pptx"
+    output_pptx = f"{base_filename}.pptx"
     prs.save(output_pptx)
     return output_pptx
 
@@ -101,12 +100,14 @@ if uploaded_file:
     else:
         df = pd.read_csv(uploaded_file)
 
+    base_filename = os.path.splitext(uploaded_file.name)[0]  # 拡張子除去
+
     if st.button("PPTを作成"):
-        ppt_path = create_ppt_from_vocab(df, col_japanese, col_ruby)
+        ppt_path = create_ppt_from_vocab(df, col_japanese, col_ruby, base_filename)
         with open(ppt_path, "rb") as f:
             st.download_button(
                 label="📥 PPTXをダウンロード",
                 data=f,
-                file_name="flashcards.pptx",
+                file_name=f"{base_filename}.pptx",
                 mime="application/vnd.openxmlformats-officedocument.presentationml.presentation"
             )
