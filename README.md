@@ -1,7 +1,6 @@
 # MakeVocabPicCard
 If you want to try to use this app, please go this Link. 
 下記リンクでアプリ試用可能です。
-
 https://makevocabpiccard.streamlit.app/
 
 Automatic Vocabulary Picture Cards Maker (except for drawing pictures) for Japanese teachers.
