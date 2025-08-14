@@ -9,7 +9,7 @@ Below Link is for User's Manual 下記リンクでユーザーマニュアルの
 
 https://makevocabpiccard.my.canva.site/
 
-Please reffer the below Lint to find language codes for translate. 翻訳用言語コードは以下リンクを参照
+Please reffer the below Link to find language codes for translate. 翻訳用言語コードは以下リンクを参照
 https://cloud.google.com/translate/docs/languages?hl=ja
 
 # About this app #
