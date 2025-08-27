@@ -17,7 +17,7 @@ col_ruby = st.text_input("ルビの列名または番号（B列=1）", value="1"
 
 # 翻訳対象言語（カンマ区切りで入力）
 target_languages_str = st.text_input(
-    "翻訳対象言語（カンマ区切り）",
+    "翻訳対象言語（カンマ区切り）  [言語コードはこちら](https://cloud.google.com/translate/docs/languages?hl=ja)",
     value="en,ne,vi,my,zh-CN,zh-TW"
 )
 target_languages = [lang.strip() for lang in target_languages_str.split(",") if lang.strip()]
