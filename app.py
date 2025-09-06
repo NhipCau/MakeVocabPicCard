@@ -26,8 +26,8 @@ st.markdown(
 uploaded_file = st.file_uploader("ExcelまたはCSVファイルをアップロード", type=["xlsx", "csv"])
 
 # 列指定
-col_japanese = st.text_input("日本語語彙の列名または番号（A列=0）", value="0")
-col_ruby = st.text_input("ルビの列名または番号（B列=1）", value="1")
+col_japanese = st.text_input("日本語語彙の列名 または番号（A列=0）", value="0")
+col_ruby = st.text_input("ルビの列名 または番号（B列=1）", value="1")
 
 # 翻訳対象言語（カンマ区切りで入力）
 target_languages_str = st.text_input(
