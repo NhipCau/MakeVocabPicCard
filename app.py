@@ -7,7 +7,21 @@ from pptx.enum.text import PP_ALIGN
 import os
 
 # ===== UI =====
-st.title("📄 絵カード作成支援ツール")
+#st.title("📄 絵カード作成支援ツール") #Markdownに変更
+st.markdown(
+    """
+    <h1 style="margin-bottom:0;">
+        📄 絵カード作成支援ツール
+    </h1>
+    <p style="font-size:0.9em; color:gray; margin-top:0.2em;">
+        ユーザーマニュアルは 
+        <a href="https://makevocabpiccard.my.canva.site/" target="_blank" style="color:#1f77b4; text-decoration:none; font-weight:bold;">
+            こちら
+        </a>
+    </p>
+    """,
+    unsafe_allow_html=True
+)
 
 uploaded_file = st.file_uploader("ExcelまたはCSVファイルをアップロード", type=["xlsx", "csv"])
 
