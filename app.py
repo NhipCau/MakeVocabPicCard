@@ -13,7 +13,7 @@ st.markdown(
     <h1 style="margin-bottom:0;">
         📄 絵カード作成支援ツール
     </h1>
-    <p style="font-size:1.2em; color:dimgray; margin-top:0.1em;">
+    <p style="font-size:1.2em; color:dimgray">
         ユーザーマニュアルは 
         <a href="https://makevocabpiccard.my.canva.site/" target="_blank" style="color:#1f77b4; text-decoration:none; font-weight:bold;">
             こちら
