@@ -114,6 +114,9 @@ if uploaded_file:
     else:
         df = pd.read_csv(uploaded_file)
 
+      # NaN を空文字に変換
+    df = df.fillna("")
+
     base_filename = os.path.splitext(uploaded_file.name)[0]  # 拡張子除去
 
     if st.button("PPTを作成"):
